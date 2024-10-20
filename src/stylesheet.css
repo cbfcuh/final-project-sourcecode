@@ -1,0 +1,29 @@
+.main-wrapper {
+    display: flex;
+    background-color: bisque;
+    height: 100vh; /* Full height of the page */
+}
+
+.button-box {
+    width: 250px; /* Fixed width for the sidebar */
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+}
+
+.main-section-wrapper {
+    flex-grow: 1; /* Make the main section fill the remaining space */
+    background-color: aqua;
+    padding: 20px; /* Optional padding for better appearance */
+}
+
+h4 {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+h4:hover {
+  color: blue; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
